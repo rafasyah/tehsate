@@ -15,7 +15,7 @@ export default function login() {
               <Text style={{ fontSize: 15, fontWeight: 'thin', textAlign: 'center' }}>didaftarin ya!</Text>
        <Formfill placeholder='Email'  />
       <Formfill placeholder='Password' />
-        <View flexDirection='row' style={{ justifyContent: 'space-between', width: '80%', alignSelf: 'center', marginTop: 10 }}>
+        <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '80%', alignSelf: 'center', marginTop: 10 }}>
             <Text>Ingatkan aku</Text>
             <Text style={{ color: 'blue', fontWeight:'bold' }}>Lupa Password?</Text>
         </View>
